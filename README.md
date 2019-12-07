@@ -1,2 +1,1 @@
-# Nomad-Coders__JS-Challenges-DAY6
- 
+# Nomad-Coders\_\_JS-Challenges-DAY6
