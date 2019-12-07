@@ -13,7 +13,7 @@
 <ul>
 <li>Don't forget to add 'values' to the options.</li>
 <li>You need to 'select' the option that has the same value as the localStorage.</li>
-<li>< select ></li>
+  <li><a href="https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/change_event">< select ></a></li>
 <li>< option ></li>
 <li>.querySelector() (Check out the section: 좀 더 복잡한 선택자)</li>
 </ul>
