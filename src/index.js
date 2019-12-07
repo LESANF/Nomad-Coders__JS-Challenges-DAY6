@@ -10,7 +10,7 @@ function handleChange(e) {
   localStorage.setItem(KEY_LS, value);
 }
 
-function init() {
+function saveOpsel() {
   const current = localStorage.getItem(KEY_LS);
 
   if (current !== null) {
@@ -19,6 +19,9 @@ function init() {
   }
 }
 
-sel.addEventListener("change", handleChange);
+function init() {
+  sel.addEventListener("change", handleChange);
+  saveOpsel();
+}
 
 init();
