@@ -11,7 +11,14 @@ function handleChange(e) {
 }
 
 function init() {
-  sel.addEventListener("change", handleChange);
+  const current = localStorage.getItem(KEY_LS);
+
+  if (current !== null) {
+    const opSel = document.querySelector(`select option[value=${current}]`);
+    opSel.setAttribute("selected", "");
+  }
 }
+
+sel.addEventListener("change", handleChange);
 
 init();
